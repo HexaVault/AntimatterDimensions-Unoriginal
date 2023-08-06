@@ -12,7 +12,7 @@ export const changelog = [
     date: [2023, 8, 5],
     name: "Addition of 9th Dimension (modded)",
     info: `
-    <b>Major Changes/Additions:<b>
+    <b>Major Changes/Additions:</b>
     <ul>
     <li> Added 9th Antimatter, Infinity and Time dimension
     <li> Added 9th column of achievements

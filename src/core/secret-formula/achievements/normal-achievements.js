@@ -130,7 +130,15 @@ export const normalAchievements = [
     id: 29,
     name: "where tenth dim",
     get description() {return `Have exactly ${format(10)} purchases of each Antimatter Dimension at once`;},
-    checkRequirement: () => 10 === player.dimensions.antimatter[0].bought === player.dimensions.antimatter[1].bought === player.dimensions.antimatter[2].bought === player.dimensions.antimatter[3].bought === player.dimensions.antimatter[4].bought === player.dimensions.antimatter[5].bought === player.dimensions.antimatter[6].bought === player.dimensions.antimatter[7].bought === player.dimensions.antimatter[8].bought,
+    checkRequirement: () => 10 === player.dimensions.antimatter[0].bought &&
+    player.dimensions.antimatter[0].bought === player.dimensions.antimatter[1].bought
+    && player.dimensions.antimatter[1].bought === player.dimensions.antimatter[2].bought
+    && player.dimensions.antimatter[2].bought === player.dimensions.antimatter[3].bought &&
+    player.dimensions.antimatter[3].bought === player.dimensions.antimatter[4].bought &&
+    player.dimensions.antimatter[4].bought === player.dimensions.antimatter[5].bought &&
+    player.dimensions.antimatter[5].bought === player.dimensions.antimatter[6].bought &&
+    player.dimensions.antimatter[6].bought === player.dimensions.antimatter[7].bought &&
+    player.dimensions.antimatter[7].bought === player.dimensions.antimatter[8].bought,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
   },
   {
