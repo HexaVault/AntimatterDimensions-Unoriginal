@@ -318,12 +318,10 @@ export const normalAchievements = [
   },
   {
     id: 49,
-    name: "Have I seen this achievement before?",
-    get description() {
-      return `Reach ${format(DC.E6)} Infinity Points`;
-    },
-    checkRequirement: () => player.infinityPoints.gte(1e6),
-    checkEvent: GAME_EVENT.GAME_TICK_AFTER
+    name: "C9 is the new C8",
+    get description() { return `Complete the 9th Antimatter Dimension Autobuyer Challenge in ${formatInt(1)} second or less.`; },
+    checkRequirement: () => NormalChallenge(9).isOnlyActiveChallenge && Time.thisInfinityRealTime.totalSeconds <= 1,
+    checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
   },
   {
     id: 51,
@@ -412,10 +410,12 @@ export const normalAchievements = [
   },
   {
     id: 59,
-    name: "Tickspeed? What's that?",
-    get description() { return `Complete the 9th Antimatter Dimension Autobuyer Challenge in ${formatInt(1)} minute or less.`; },
-    checkRequirement: () => NormalChallenge(9).isOnlyActiveChallenge && Time.thisInfinityRealTime.totalMinutes <= 1,
-    checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
+    name: "Have I seen this achievement before?",
+    get description() {
+      return `Reach ${format(DC.E6)} Infinity Points`;
+    },
+    checkRequirement: () => player.infinityPoints.gte(1e6),
+    checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 61,
