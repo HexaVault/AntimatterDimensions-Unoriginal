@@ -9,6 +9,23 @@ export const changelog = [
    * }
    */
   {
+    date: [2023, 8, 5],
+    name: "Addition of 9th Dimension (modded)",
+    info: `
+    <b>Major Changes/Additions:<b>
+    <ul>
+    <li> Added 9th Antimatter, Infinity and Time dimension
+    <li> Added 9th column of achievements
+    <li> Antimatter Galaxies, Dimensional Sacrifice and Dimension Boosts now cost 9th AD
+    <li> Most references to 6/8 are now 7/9
+    <li> Shifted the challenges 9-12 by one to make room for a new c9
+    <li> Infinity dimensions 5-9 have lower AM requirements and IP costs
+    <li> Time dimension 5 is now accessible before Dilation, all previous time dimension studies have been shifted up 1
+    <li> Added autobuyers for 9th dimensions
+    <li> 9th dimension jokes are now 10th dimension
+    `
+  },
+  {
     date: [2023, 7, 18],
     name: "Final Official Patch",
     info: `

@@ -288,8 +288,8 @@ export const normalAchievements = [
   {
     id: 46,
     name: "Multidimensional",
-    get description() { return `Reach ${format(DC.E12)} of all Antimatter Dimensions except the 8th.`; },
-    checkRequirement: () => AntimatterDimension(7).amount.exponent >= 12,
+    get description() { return `Reach ${format(DC.E12)} of all Antimatter Dimensions except the 9th.`; },
+    checkRequirement: () => AntimatterDimension(8).amount.exponent >= 12,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
@@ -839,7 +839,7 @@ export const normalAchievements = [
   {
     id: 109,
     name: "Wrong way round",
-    description: "Reality with more Replicanti Galaxies then Replicanti",
+    description: "Eternity with more Replicanti Galaxies then Replicanti",
     checkRequirement: () => Replicanti.amount.round().lt(player.replicanti.galaxies),
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE
   },

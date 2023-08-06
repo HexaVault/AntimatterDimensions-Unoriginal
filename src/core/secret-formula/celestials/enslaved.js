@@ -43,7 +43,7 @@ export const enslaved = {
     challengeCombo: {
       id: 7,
       hint: "Could I possibly use one Challenge to get around a restriction in another Challenge?",
-      condition: "Entered Challenge 10 while already inside of Eternity Challenge 6",
+      condition: "Entered Challenge 11 while already inside of Eternity Challenge 6",
     },
   },
   // These get unlocked sequentially

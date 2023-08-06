@@ -124,7 +124,7 @@ export const laitelaQuotes = {
   },
   fullDestabilize: {
     id: 9,
-    requirement: () => player.celestials.laitela.difficultyTier >= 8,
+    requirement: () => player.celestials.laitela.difficultyTier >= 9,
     lines: [
       "I feel... like I had something to say...",
       "I am not sure...",

@@ -107,7 +107,7 @@ export const pelleQuotes = {
       "Condensing all ideals to endless points.",
       "Experimentation across the untold realms.",
       "And harnessing the Annihilation of matter and antimatter.",
-      "Here? You made yourself into an 8th-dimensional being.",
+      "Here? You made yourself into an 9th-dimensional being.",
       { text: "And then parked yourself there so long a $1 formed around you.", 1: single }
     ],
   },

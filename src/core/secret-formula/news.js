@@ -560,7 +560,7 @@ export const news = [
     id: "a112",
     text:
       `What the f*ck did you just f*cking say about me, you little b*tch? I'll have you know I graduated top of my
-      class in the Antimatter Seals, and I've been involved in numerous secret raids on the 9th Dimension, and I
+      class in the Antimatter Seals, and I've been involved in numerous secret raids on the 10th Dimension, and I
       have over 300 NNnNeMI-NNnNe confirmed kills. I am trained in potato warfare and I'm the top sniper in the
       entire Antimatter Galactic armed forces. You are nothing to me but just another infinity. I will wipe you
       the f*ck out with Max All mashing the likes of which has never been seen before in this dimension, mark my
@@ -629,7 +629,7 @@ export const news = [
   },
   {
     id: "a118",
-    text: "I have a 9th, I have a dimension... UHH... IT DOESN'T EXIST!"
+    text: "I have a 10th, I have a dimension... UHH... IT DOESN'T EXIST!"
   },
   {
     id: "a119",
@@ -963,7 +963,7 @@ export const news = [
   {
     id: "a178",
     text:
-      `WARNING: Use of Antimatter Dimensions may result in Tuberculosis, HIV/AIDS, sudden belief that the 9th
+      `WARNING: Use of Antimatter Dimensions may result in Tuberculosis, HIV/AIDS, sudden belief that the 10th
       dimension is real, spontaneous implosion, Polio, Measles, existential dread, incurable insanity or <span
       style='color: black; background: black;'>REDACTED</span>. Please contact your insurance to see if you are
       covered. By continuing you absolve Antimatter Dimensions of blame should any of the above mentioned, or those
@@ -1210,7 +1210,7 @@ export const news = [
   {
     id: "a212",
     text:
-      `Hey, you. You're finally awake. You were trying to get the 9th dimension, right? Walked right into that
+      `Hey, you. You're finally awake. You were trying to get the 10th dimension, right? Walked right into that
       Infinity, same as us, and that thief over there.`
   },
   {
@@ -1247,21 +1247,21 @@ export const news = [
   {
     id: "a219",
     text:
-      `Hello, Vsauce, Michael here. We all know that the 9th dimension doesn't exist, but what is 9? You know it's
-      the number after 8... right? What if... there's a number in between? And no I'm not talking about numbers
-      like 8.5 or 8.76, I'm talking about an integer between 8 and 9. Now all this may sound crazy to you, and it
+      `Hello, Vsauce, Michael here. We all know that the 10th dimension doesn't exist, but what is 9? You know it's
+      the number after 9... right? What if... there's a number in between? And no I'm not talking about numbers
+      like 9.5 or 9.76, I'm talking about an integer between 9 and 10. Now all this may sound crazy to you, and it
       kinda is, but what if, we've missed a number? We've all been taught that 2 comes after 1 and 3 comes after
-      2, but what if the number that comes after 8 isn't 9? After years of research and experimentation, we've
+      2, but what if the number that comes after 9 isn't 10? After years of research and experimentation, we've
       finally found the number. It is dangerous, even knowing its existence will let it consume your mind, but
       fortunately, we've developed a reverse-containment cell, meaning it's everywhere except here. Our brain has
       a protection system, that specifically filters out any information regarding this number, that's how we've
       been able to survive for this long, and why others like us went extinct in the past, but the number has been
       getting stronger, slowly getting closer to breaking our protection. We've temporary stopped the number from
       slipping into our memory by using the world-wide memory manipulator located in this room to keep making
-      everyone think that 9 comes after 8 with a side effect that makes everyone think that 9 is evil, but this
+      everyone think that 10 comes after 9 with a side effect that makes everyone think that 10 is evil, but this
       won't last forever, as the number will keep getting stronger, and will eventually overpower the memory
       manipulator. That's why you're here, you're one of the most intelligent people here, and we hope you can
-      help us on our journey to defeat that number. Our enemy is not 9, it is the hidden number between 8 and 9,
+      help us on our journey to defeat that number. Our enemy is not 10, it is the hidden number between 9 and 10,
       the missing number.`
   },
   {
@@ -1540,7 +1540,7 @@ export const news = [
   },
   {
     id: "a256",
-    text: "The 9th dimension doesn't exist because the 7th dimension 8 it."
+    text: "The 10th dimension doesn't exist because the 7th dimension 8 it."
   },
   {
     id: "a257",
@@ -1687,7 +1687,7 @@ export const news = [
       thousand news message cards with all the irrelevant memes you know and love! You can finally enjoy AD the way
       it was meant to be played. AD: The Board Game is also available in travel size, so you can even experience
       the joy of calculating logarithmic growth while you're on the go! BUY AD: The Board Game TODAY! Warning: may
-      contain traces of actual matter. Replicanti sold separately. 9th Dimension not included.`;
+      contain traces of actual matter. Replicanti sold separately. 10th Dimension not included.`;
     },
     isAdvertising: true
   },
@@ -1702,14 +1702,14 @@ export const news = [
   {
     id: "a282",
     text:
-      `There was a reported sighting of the 9th Dimension, but it has since been
+      `There was a reported sighting of the 10th Dimension, but it has since been
       debunked as simply being a 6th Dimension from Australia.`
   },
   {
     id: "a283",
     text:
-      `A strange phenomenon occurs when you attempt to shift to a higher dimension when you are in the 8th
-      dimension. There is no higher dimension, so the universe ejects you back into the 8th dimension with
+      `A strange phenomenon occurs when you attempt to shift to a higher dimension when you are in the 9th
+      dimension. There is no higher dimension, so the universe ejects you back into the 9th dimension with
       an incredible velocity. This technique, known as a Dimension Boost, is used by starship pilots and
       antimatter enthusiasts everywhere.`
   },
@@ -2439,7 +2439,7 @@ export const news = [
       infrastructure foundation) - not to be confused with the EAIF (Electric airship investment fund) or the
       NMIC (National Magical Infrastructure Coalition). The goal of the three R's, set out by the EMIF, was to
       reinstate a mana trade corridor for SMSS (Small-Medium Steam Shuttles), a vital part of the burgeoning
-      consolidated states after their unfortunate pillaging during the NELC (ninth empire liberation crusade).
+      consolidated states after their unfortunate pillaging during the TELC (tenth empire liberation crusade).
       The three R's was a multi stage project - stage 1 was a survey glyph in the air - all big things start with
       a small step. Stage 2, the unveiling of the EMOF (Empire Mechanical Obliteration Forcefield) had over 50
       dignitaries - multiple emperors (from federated states to organisational leaders), foreign rulers, EMDF
@@ -2540,7 +2540,7 @@ export const news = [
   {
     id: "a382",
     text:
-      "Any AD player born after 1993 can't joke... All they know is 5 hours, paperclips, 1.79e308 & Ninth Dimension."
+      "Any AD player born after 1993 can't joke... All they know is 5 hours, paperclips, 1.79e308 & Tenth Dimension."
   },
   {
     id: "a383",
@@ -2649,45 +2649,45 @@ export const news = [
   },
   {
     id: "l11",
-    text: "9th Dimension is a lie.",
+    text: "10th Dimension is a lie.",
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
   },
   {
     id: "l12",
-    text: "The square root of 9 is 3, therefore the 9th dimension can't exist.",
+    text: "The square root of 9 is 3, therefore the 10th dimension can't exist.",
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
   },
   {
     id: "l13",
-    text: "You got assimilated by the 9th dimension? Just call your doctor for mental illness!",
+    text: "You got assimilated by the 10th dimension? Just call your doctor for mental illness!",
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
   },
   {
     id: "l14",
-    text: "Why is there no 9th dimension? Because 7 8 9.",
+    text: "Why is there no 10th dimension? Because 7 8 10.",
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
   },
   {
     id: "l15",
-    text: "The 9th dimension cannot exist because the Nein-speaking nazis died in WW2.",
+    text: "The 10th dimension cannot exist because the Tain-speaking nazis died in WW2.",
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
@@ -2695,10 +2695,10 @@ export const news = [
   {
     id: "l16",
     text:
-      `If you break the fourth wall... well, there's still the fifth, sixth, seventh, and eighth to get through
+      `If you break the fourth wall... well, there's still the fifth, sixth, seventh, eighth and ninth to get through
       before you encounter bad things, so you should be fine`,
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
@@ -2708,19 +2708,19 @@ export const news = [
     text:
       `Conditions must be met for Hevipelle to sleep. First, it needs to be a blue moon. Second, a specific town
       in the arctic must have not seen light for a month. Third, he needs to release an AD update. And finally,
-      no one on the Discord can be on dimension 9. Only then can he rest, for up to 6 hours, before waking up
+      no one on the Discord can be on dimension 10. Only then can he rest, for up to 6 hours, before waking up
       forcefully to avoid getting the offline achievement.`,
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
   },
   {
     id: "l18",
-    text: "If the 9th dimension is all evil, then is 3 the root of all evil?",
+    text: "If the 10th dimension is all evil, then is 3.162 the root of all evil?",
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
@@ -2728,10 +2728,10 @@ export const news = [
   {
     id: "l19",
     text:
-      `I'll have 1e29 number 9s, a number 1e9 large, a number 6 with extra replicanti, a number 1e7, two 4e5s,
+      `I'll have 1e29 number 10s, a number 1e10 large, a number 6 with extra replicanti, a number 1e7, two 4e5s,
       one with matter, and a large time vortex.`,
     get unlocked() {
-      return DimBoost.totalBoosts >= 5 ||
+      return DimBoost.totalBoosts >= 6 ||
       player.galaxies > 0 ||
       PlayerProgress.infinityUnlocked();
     }
@@ -2844,7 +2844,7 @@ export const news = [
   {
     id: "l40",
     text:
-      `I broke the 8th wall, there is only chaos, Slabdrill is ritually sacrificing antimatter to the 9th
+      `I broke the 9th wall, there is only chaos, Slabdrill is ritually sacrificing antimatter to the 10th
       dimension. This will be my last entry, may Hevipelle have mercy on our souls, we didn't listen,
       We should have listened.`,
     get unlocked() { return NewsHandler.hasSeenNews("l58"); }
@@ -2952,7 +2952,7 @@ export const news = [
   },
   {
     id: "l56",
-    text: "Reality Challenges are the new 9th Dimension is the new orange.",
+    text: "Reality Challenges are the new 10th Dimension is the new orange.",
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
@@ -2989,7 +2989,7 @@ export const news = [
       then humanity chose. The short, cheap route of Antimatter Dimensions, giving instant gratification, the
       powerful choice of Infinity Dimensions, which were a fast, middle ground path, or Time Dimension, the long
       wait, and struggle, of humanity. Then, as humanity chose, a crack broke the earth. A serpent snaked out and
-      sneered to humanity, “I will offer the powerful choice of a ninth dimension! I am Slabdrill, lord of all
+      sneered to humanity, “I will offer the powerful choice of a tenth dimension! I am Slabdrill, lord of all
       Unhevi. Humanity rose and said “ Begone Slabdrill! We want none of your foul Heresy!” And Hevi rose as well,
       and smote Slabdrill with his godlike power. As Slabdrill's corpse fell into the earth, he cried “ this will
       not be the last of me! Hevi will betr-“ and he fell in the Abyss of matter. Hevi gifted humanity with
@@ -3324,7 +3324,7 @@ export const news = [
   },
   {
     id: "ai9",
-    text: "the idea that the 9th dimension creates the 8th dimension is crazy"
+    text: "the idea that the 10th dimension creates the 9th dimension is crazy"
   },
   {
     id: "ai10",
@@ -3373,7 +3373,7 @@ export const news = [
   },
   {
     id: "ai21",
-    text: "Is this the real 9th Dimension?"
+    text: "Is this the real 10th Dimension?"
   },
   {
     id: "ai22",
@@ -3381,11 +3381,11 @@ export const news = [
   },
   {
     id: "ai23",
-    text: "This news ticker will now only AIR in the 9th dimension"
+    text: "This news ticker will now only AIR in the 10th dimension"
   },
   {
     id: "ai24",
-    text: "The 9th dimension doesn't exist because it was suppressed by the 9th dimension."
+    text: "The 10th dimension doesn't exist because it was suppressed by the 10th dimension."
   },
   {
     id: "ai25",
@@ -3397,7 +3397,7 @@ export const news = [
   },
   {
     id: "ai27",
-    text: "Half of the problems in the 9th dimension don't even make sense. What are they even doing with all of that energy anyway?"
+    text: "Half of the problems in the 10th dimension don't even make sense. What are they even doing with all of that energy anyway?"
   },
   {
     id: "ai28",
@@ -3417,7 +3417,7 @@ export const news = [
   },
   {
     id: "ai32",
-    text: "the 9th dimension doesn't exist because we are using nonary"
+    text: "the 10th dimension doesn't exist because we are using denary"
   },
   {
     id: "ai33",
@@ -3489,11 +3489,11 @@ export const news = [
   },
   {
     id: "ai50",
-    text: "The 9th dimension is clearly real! It's just not in our dimension."
+    text: "The 10th dimension is clearly real! It's just not in our dimension."
   },
   {
     id: "ai51",
-    text: "I tried searching on google for the phrase \"9th dimension,\" and I'm okay with saying that, because it describes a very real thing."
+    text: "I tried searching on google for the phrase \"10th dimension,\" and I'm okay with saying that, because it describes a very real thing."
   },
   {
     id: "ai52",
@@ -3517,11 +3517,11 @@ export const news = [
   },
   {
     id: "ai57",
-    text: "I am Alpha Centauri, Prime 001. My research has found that if you are alive in the 9th dimension, evil has taken over your dimension and is attempting to enact its plan to take over your mind and reverse time. You must do everything in your power to stop this plan from being implemented, now."
+    text: "I am Alpha Centauri, Prime 001. My research has found that if you are alive in the 10th dimension, evil has taken over your dimension and is attempting to enact its plan to take over your mind and reverse time. You must do everything in your power to stop this plan from being implemented, now."
   },
   {
     id: "ai58",
-    text: "Stand by and unlock the 9th dimension for a secret achievement."
+    text: "Stand by and unlock the 10th dimension for a secret achievement."
   },
   {
     id: "ai59",
@@ -3673,7 +3673,7 @@ export const news = [
   },
   {
     id: "ai96",
-    text: "Why is nobody talking about the 9th dimension?"
+    text: "Why is nobody talking about the 10th dimension?"
   },
   {
     id: "ai97",
@@ -3681,7 +3681,7 @@ export const news = [
   },
   {
     id: "ai98",
-    text: "Sorry, your reality has disconnected from the 9th dimension. You will now remain in the 8th dimension until further notice."
+    text: "Sorry, your reality has disconnected from the 10th dimension. You will now remain in the 9th dimension until further notice."
   },
   (function() {
     let wasClicked = false;
@@ -3720,7 +3720,7 @@ export const news = [
   },
   {
     id: "ai104",
-    text: "Sorry, your reality has disconnected from the 9th dimension."
+    text: "Sorry, your reality has disconnected from the 10th dimension."
   },
   {
     id: "ai105",
@@ -3865,7 +3865,7 @@ export const news = [
   },
   {
     id: "ai140",
-    text: "Malicious men are trying to make antimatter money, but their attempt is getting in the 9th dimension. What do you think about that?"
+    text: "Malicious men are trying to make antimatter money, but their attempt is getting in the 10th dimension. What do you think about that?"
   },
   {
     id: "ai141",
@@ -3953,7 +3953,7 @@ export const news = [
   },
   {
     id: "ai162",
-    text: "Why does one galaxy has 9 galaxies and the 8th dimension, and the first 10 dimensions doesn't exist? Well, we'll have to solve that question in a minute."
+    text: "Why does one galaxy has 9 galaxies and the 9th dimension, and the first 10 dimensions doesn't exist? Well, we'll have to solve that question in a minute."
   },
   {
     id: "ai163",
@@ -3981,7 +3981,7 @@ export const news = [
   },
   {
     id: "ai169",
-    text: "Click this to unlock the 10th Dimension"
+    text: "Click this to unlock the 11th Dimension"
   },
   {
     id: "ai170",
@@ -4037,7 +4037,7 @@ export const news = [
   },
   {
     id: "ai183",
-    text: "\"According to quantum string theory, there is a fundamental connective that binds the 3rd and 8th dimensions.  This means that any pill or injection that tries to bind the 9th dimension will be thwarted and rendered useless.\" (bound to get in 10 minutes)"
+    text: "\"According to quantum string theory, there is a fundamental connective that binds the 4th and 9th dimensions.  This means that any pill or injection that tries to bind the 10th dimension will be thwarted and rendered useless.\" (bound to get in 10 minutes)"
   },
   {
     id: "ai184",
@@ -4045,7 +4045,7 @@ export const news = [
   },
   {
     id: "ai185",
-    text: "\"The secret to winning Antimatter Dimensions is to unbind the 9th dimension and unlock the 10th dimension\" (can be done only after unlocking the secret achievement: \"Eternity\" http://imgur.com/E4261C7h)"
+    text: "\"The secret to winning Antimatter Dimensions is to unbind the 10th dimension and unlock the 11th dimension\" (can be done only after unlocking the secret achievement: \"Eternity\" http://imgur.com/E4261C7h)"
   },
   {
     id: "ai186",
@@ -4086,7 +4086,7 @@ export const news = [
   },
   {
     id: "ai195",
-    text: "Welcome to the first ever, DIMENSION 9 IN CLASS! An endless stream of possibilities greets you! You may never create an infinite number of 8th dimensions, but you can create an infinite number of 8th dimensions, and you can increase the starting values of both dimensions by adding them together. Nice and simple, I call it Antimatter Dimensions."
+    text: "Welcome to the first ever, DIMENSION 9 IN CLASS! An endless stream of possibilities greets you! You may never create an infinite number of 9th dimensions, but you can create an infinite number of 9th dimensions, and you can increase the starting values of both dimensions by adding them together. Nice and simple, I call it Antimatter Dimensions."
   },
   {
     id: "ai196",
@@ -4136,7 +4136,7 @@ export const news = [
   },
   {
     id: "ai207",
-    text: "With the release of the next update, we're introducing a new dimension - the 9th Dimension. To unlock this dimension, you just have to collect a lot of paperclips."
+    text: "With the release of the next update, we're introducing a new dimension - the 10th Dimension. To unlock this dimension, you just have to collect a lot of paperclips."
   },
   {
     id: "ai208",
@@ -4200,15 +4200,15 @@ export const news = [
   },
   {
     id: "ai222",
-    text: "Press alt+f4 to unlock 9th dimension"
+    text: "Press alt+f4 to unlock 10th dimension"
   },
   {
     id: "ai223",
-    text: "Hold you mean that hevi cant unlock the ninth dimension wtf"
+    text: "Hold you mean that hevi cant unlock the tenth dimension wtf"
   },
   {
     id: "ai224",
-    text: "Finally hevi figured out how to get the 9th dimension... guess he never really cared though."
+    text: "Finally hevi figured out how to get the 10th dimension... guess he never really cared though."
   },
   {
     id: "ai225",
@@ -4336,7 +4336,7 @@ export const news = [
   },
   {
     id: "ai256",
-    text: "Imagine being a 9th dimension. [WIP]"
+    text: "Imagine being a 10th dimension. [WIP]"
   },
   {
     id: "ai257",
@@ -4348,7 +4348,7 @@ export const news = [
   },
   {
     id: "ai259",
-    text: "Hm, I don't get why people think there is a 9th dimension. The 9th dimension is explained in detail in the [[Infinite Teleport Project]] video, and in a [[Word Problem]] that [[can be viewed here|http://www.thingiverse.com/id98109802713176601414569]] ."
+    text: "Hm, I don't get why people think there is a 10th dimension. The 10th dimension is explained in detail in the [[Infinite Teleport Project]] video, and in a [[Word Problem]] that [[can be viewed here|http://www.thingiverse.com/id98109802713176601414569]] ."
   },
   {
     id: "ai260",
@@ -4400,7 +4400,7 @@ export const news = [
   },
   {
     id: "ai272",
-    text: "Instructions clear, got a ninth dimension epiphany"
+    text: "Instructions clear, got a tenth dimension epiphany"
   },
   {
     id: "ai273",
@@ -4408,7 +4408,7 @@ export const news = [
   },
   {
     id: "ai274",
-    text: "MEE6 was seen in my antimatter lab trying to tell me that I am the matter of the 8th dimension."
+    text: "MEE6 was seen in my antimatter lab trying to tell me that I am the matter of the 9th dimension."
   },
   {
     id: "ai275",
@@ -4432,7 +4432,7 @@ export const news = [
   },
   {
     id: "ai280",
-    text: "c9 is the new 9th dimension!"
+    text: "c10 is the new 10th dimension!"
   },
   {
     id: "ai281",
@@ -4452,11 +4452,11 @@ export const news = [
   },
   {
     id: "ai285",
-    text: "i title my suggestions \"The Price Is Right\" instead of \"The 9th Dimension\" because it's more fun ;)"
+    text: "i title my suggestions \"The Price Is Right\" instead of \"The 10th Dimension\" because it's more fun ;)"
   },
   {
     id: "ai286",
-    text: "Why do we call heaven the ninth dimension and hell the eighth dimension?"
+    text: "Why do we call heaven the tenth dimension and hell the ninth dimension?"
   },
   {
     id: "ai287",
@@ -4612,7 +4612,7 @@ export const news = [
   },
   {
     id: "ai325",
-    text: "The square root of 4 is 6.24e18. If you want to get any closer to the center of things, you need to build a 9th dimension."
+    text: "The square root of 4 is 6.24e18. If you want to get any closer to the center of things, you need to build a 10th dimension."
   },
   {
     id: "ai326",
@@ -4636,11 +4636,11 @@ export const news = [
   },
   {
     id: "ai331",
-    text: "Oh dear, there's that thing about the 9th dimension?"
+    text: "Oh dear, there's that thing about the 10th dimension?"
   },
   {
     id: "ai332",
-    text: "\"hey kid, wanna buy some 9th dimensions? '' - GhostBot"
+    text: "\"hey kid, wanna buy some 10th dimensions? '' - GhostBot"
   },
   {
     id: "ai333",
@@ -4732,7 +4732,7 @@ export const news = [
   },
   {
     id: "ai355",
-    text: "To Crunch in Hell is to get the secret to unlocking the 9th dimension. You need to study and practice alot."
+    text: "To Crunch in Hell is to get the secret to unlocking the 10th dimension. You need to study and practice alot."
   },
   {
     id: "ai356",
@@ -4740,7 +4740,7 @@ export const news = [
   },
   {
     id: "ai357",
-    text: "Welcome back to another episode of Antimatter Dimensions, the iconic role-playing game that has become a part of our everyday lives. Playing Antimatter Dimensions has become a common thing among young children, and has even inspired a movie titled \"Playing at Home: Lessons from the 4-Year Old Premium Account.\", which is available on Netflix. The themes and mechanics of this new age of antimatter have already been proven to be groundbreaking, and will change the way you play games forever. Join us for the launch on January 9th, 2027, where we'll also have over a hundred years of production still to go."
+    text: "Welcome back to another episode of Antimatter Dimensions, the iconic role-playing game that has become a part of our everyday lives. Playing Antimatter Dimensions has become a common thing among young children, and has even inspired a movie titled \"Playing at Home: Lessons from the 4-Year Old Premium Account.\", which is available on Netflix. The themes and mechanics of this new age of antimatter have already been proven to be groundbreaking, and will change the way you play games forever. Join us for the launch on January 10th, 2027, where we'll also have over a hundred years of production still to go."
   },
   {
     id: "ai358",
@@ -4800,7 +4800,7 @@ export const news = [
   },
   {
     id: "ai372",
-    text: "Can't edit this in the official build? Then download the 9th dimension and put your suggestions in the game."
+    text: "Can't edit this in the official build? Then download the 10th dimension and put your suggestions in the game."
   },
   {
     id: "ai373",
@@ -4868,7 +4868,7 @@ export const news = [
   },
   {
     id: "ai389",
-    text: "I wish I didn't have so many 9th Dimensions."
+    text: "I wish I didn't have so many 10th Dimensions."
   },
   {
     id: "ai390",
@@ -4888,7 +4888,7 @@ export const news = [
   },
   {
     id: "ai394",
-    text: "Always going to war with the 9th dimension is the 9th dimension."
+    text: "Always going to war with the 10th dimension is the 10th dimension."
   },
   {
     id: "ai395",
@@ -5040,7 +5040,7 @@ export const news = [
   },
   {
     id: "ai432",
-    text: "9 is now treated like any other number, although hevi claims that it stands in contrast to other numbers, like 8th, which he calls 9th."
+    text: "10 is now treated like any other number, although hevi claims that it stands in contrast to other numbers, like 9th, which he calls 10th."
   },
   {
     id: "ai433",
@@ -5105,7 +5105,7 @@ export const news = [
   },
   {
     id: "ai448",
-    text: "Well dang 9 ball's stuck in my ninth dimension, I can't move, he's banging on my ninth wall, I can't break, he's banging on my ninth timeline, I can't get a bead on him, he destroys nine and leaves me hanging, like a gromit, I gotta come back, hang Glorfindel and Gaebley, I've got a proposition to make, I gotta get my head around the fact that the only thing I've done is keep score and keep scorekeeping score, and all these other pointless musings that's easily rectified by flipping to the next update, and even then I might run into those issues the bug is specifically designed for and"
+    text: "Well dang 9 ball's stuck in my tenth dimension, I can't move, he's banging on my tenth wall, I can't break, he's banging on my tenth timeline, I can't get a bead on him, he destroys nine and leaves me hanging, like a gromit, I gotta come back, hang Glorfindel and Gaebley, I've got a proposition to make, I gotta get my head around the fact that the only thing I've done is keep score and keep scorekeeping score, and all these other pointless musings that's easily rectified by flipping to the next update, and even then I might run into those issues the bug is specifically designed for and"
   },
   {
     id: "ai449",
@@ -5121,7 +5121,7 @@ export const news = [
   },
   {
     id: "ai452",
-    text: "Hey, you're finally awake. You were trying to get to the 9th dimension, right? Walked right into that infinity point, same as us, and that apocalypse over there."
+    text: "Hey, you're finally awake. You were trying to get to the 10th dimension, right? Walked right into that infinity point, same as us, and that apocalypse over there."
   },
   {
     id: "ai453",
@@ -5270,7 +5270,7 @@ export const news = [
   },
   {
     id: "ai489",
-    text: "Spartacus was going to add 10-part multi-chapter plots, but was stopped by the 10th dimension."
+    text: "Spartacus was going to add 10-part multi-chapter plots, but was stopped by the 11th dimension."
   },
   {
     id: "ai490",
@@ -5278,7 +5278,7 @@ export const news = [
   },
   {
     id: "ai491",
-    text: "Fake news says the ninth dimension is real, fake news says the ninth dimension is fake."
+    text: "Fake news says the tenth dimension is real, fake news says the tenth dimension is fake."
   },
   {
     id: "ai492",
@@ -5314,7 +5314,7 @@ export const news = [
   },
   {
     id: "ai500",
-    text: "To make Antimatter Dimensions, you first need to collect 7 8th dimensions. To do that, first you need to get the dimension rewards, then you need to get the dimensions, then you can finally start making antimatter."
+    text: "To make Antimatter Dimensions, you first need to collect 8 9th dimensions. To do that, first you need to get the dimension rewards, then you need to get the dimensions, then you can finally start making antimatter."
   },
   {
     id: "ai501",
@@ -5334,7 +5334,7 @@ export const news = [
   },
   {
     id: "ai505",
-    text: "A long time ago, in an alternate universe, there was an antimatter war. All the antimatter sided with the Phaéton 6 empire. All the antimatter wanted was the low, earth-like ground of the 8th dimension. The anti-infinity won, and the anti-Eternity gained the upper hand. Unfortunately, the anti-Eternity started the war with a sneak attack, and the world exploded. The aftermath has left the landscape of the world in tatters. Far across the world, peasants grow weary as they wait for the harvest. Yet another apocalypse is brewing..."
+    text: "A long time ago, in an alternate universe, there was an antimatter war. All the antimatter sided with the Phaéton 6 empire. All the antimatter wanted was the low, earth-like ground of the 9th dimension. The anti-infinity won, and the anti-Eternity gained the upper hand. Unfortunately, the anti-Eternity started the war with a sneak attack, and the world exploded. The aftermath has left the landscape of the world in tatters. Far across the world, peasants grow weary as they wait for the harvest. Yet another apocalypse is brewing..."
   },
   {
     id: "ai506",
@@ -5354,7 +5354,7 @@ export const news = [
   },
   {
     id: "ai510",
-    text: "Top 10 things that will blow your mind: 1) The number 9, 2) The 9th dimension, 3) The infinity chest, and 4) The war on drugs."
+    text: "Top 10 things that will blow your mind: 1) The number 10, 2) The 10th dimension, 3) The infinity chest, and 4) The war on drugs."
   },
   {
     id: "ai511",
@@ -5502,7 +5502,7 @@ export const news = [
   },
   {
     id: "ai547",
-    text: "You know, I was praying for a miracle and got a boost from the 9th dimension."
+    text: "You know, I was praying for a miracle and got a boost from the 10th dimension."
   },
   {
     id: "ai548",
@@ -5526,11 +5526,11 @@ export const news = [
   },
   {
     id: "ai553",
-    text: "The time has come for the rebirth of the 9th dimension. All who participate will receive a piece of paper saying \"Reality is an illusion, Infinity is a hologram, Infinity is an illusion, eternity is a hologram, is to short for everlasting, negative dimensions are not allowed."
+    text: "The time has come for the rebirth of the 10th dimension. All who participate will receive a piece of paper saying \"Reality is an illusion, Infinity is a hologram, Infinity is an illusion, eternity is a hologram, is to short for everlasting, negative dimensions are not allowed."
   },
   {
     id: "ai554",
-    text: "Look at this, my 9th dimension has just been reworked and now it even produces 8th dimensions! Who knew just a touch of math could make such a thing as this?"
+    text: "Look at this, my 10th dimension has just been reworked and now it even produces 9th dimensions! Who knew just a touch of math could make such a thing as this?"
   },
   {
     id: "ai555",
@@ -5554,7 +5554,7 @@ export const news = [
   },
   {
     id: "ai560",
-    text: "The ninth dimension makes the sixth family happy. The fifth lives in shame."
+    text: "The tenth dimension makes the seventh family happy. The sixth lives in shame."
   },
   {
     id: "ai561",
@@ -5611,11 +5611,11 @@ export const news = [
   },
   {
     id: "ai574",
-    text: "A new conspiracy theory website has just published a video recording of them discussing the 9th dimension. They then joke about selling their soul to the 9th dimension and being happy about it."
+    text: "A new conspiracy theory website has just published a video recording of them discussing the 10th dimension. They then joke about selling their soul to the 9th dimension and being happy about it."
   },
   {
     id: "ai575",
-    text: "With the release of the 9th dimension, all the jobs that were previously automated will be automated and everyone will be paid with trade, production, and income growth. Also, you will be able to automate a lot of the tasks currently performed by people, such as mining, building, and killing antimatter. This is a huge stride for automation, as you can now automate virtually every aspect of life."
+    text: "With the release of the 10th dimension, all the jobs that were previously automated will be automated and everyone will be paid with trade, production, and income growth. Also, you will be able to automate a lot of the tasks currently performed by people, such as mining, building, and killing antimatter. This is a huge stride for automation, as you can now automate virtually every aspect of life."
   },
   {
     id: "ai576",
@@ -5695,7 +5695,7 @@ export const news = [
   },
   {
     id: "ai595",
-    text: "\"Its' not my turn on the XM80,\" says Mike from the 9th dimension as he runs across the 8th dimension to get a piece of the action for himself."
+    text: "\"Its' not my turn on the XM80,\" says Mike from the 10th dimension as he runs across the 9th dimension to get a piece of the action for himself."
   },
   {
     id: "ai596",
@@ -5707,7 +5707,7 @@ export const news = [
   },
   {
     id: "ai598",
-    text: "9th dimension doesn't exist because it was stolen from us by a skateboarder"
+    text: "10th dimension doesn't exist because it was stolen from us by a skateboarder"
   },
   {
     id: "ai599",
@@ -5735,7 +5735,7 @@ export const news = [
   },
   {
     id: "ai605",
-    text: "I just found the secret to getting the 9th dimension..."
+    text: "I just found the secret to getting the 10th dimension..."
   },
   {
     id: "ai606",
@@ -5812,7 +5812,7 @@ export const news = [
   },
   {
     id: "ai624",
-    text: "To the person who doesn't want to hear about the 9th dimension: It's not your problem. The 9th dimension doesn't exist."
+    text: "To the person who doesn't want to hear about the 10th dimension: It's not your problem. The 10th dimension doesn't exist."
   },
   {
     id: "ai625",
@@ -5849,7 +5849,7 @@ export const news = [
   },
   {
     id: "ai633",
-    text: "I'm not sure if it's due to the 4th wall being in the 5th dimension or the 9th dimension not existing, but in either case, anti-screw it, we're broke, and you can take it."
+    text: "I'm not sure if it's due to the 4th wall being in the 5th dimension or the 10th dimension not existing, but in either case, anti-screw it, we're broke, and you can take it."
   },
   {
     id: "ai634",
@@ -5902,7 +5902,7 @@ export const news = [
   },
   {
     id: "ai646",
-    text: "I was gonna say something about how the 9th dimension is just a scam and that we should all just get our news from the 8th dimension"
+    text: "I was gonna say something about how the 10th dimension is just a scam and that we should all just get our news from the 9th dimension"
   },
   {
     id: "ai647",
@@ -5922,7 +5922,7 @@ export const news = [
   },
   {
     id: "ai651",
-    text: "You have an infinity of antimatter. But what if you could rotate it 1/8th of a revolution?"
+    text: "You have an infinity of antimatter. But what if you could rotate it 1/9th of a revolution?"
   },
   {
     id: "ai652",
@@ -6011,7 +6011,7 @@ export const news = [
   },
   {
     id: "ai673",
-    text: "The Ninth Dimension is just a lie made to keep the people in bondage to the Matrix. It's an elaborate system that keeps the people in a constant state of captivity, using a series of simple symbols to control their thoughts and emotions."
+    text: "The Tenth Dimension is just a lie made to keep the people in bondage to the Matrix. It's an elaborate system that keeps the people in a constant state of captivity, using a series of simple symbols to control their thoughts and emotions."
   },
   {
     id: "ai674",
@@ -6132,7 +6132,7 @@ export const news = [
   },
   {
     id: "ai703",
-    text: "You know, I don't really care much for conspiracy theories. They're not very interesting to me. But what do you know about 9th dimensions? That they exist, they're powerful, and they're trying to stop us from using them? That's pretty interesting... wait no, they're not. They're just saying that because they can, they'll. That's not how it works at all. I'm not stupid, I'm not crazy, I know what's best. I"
+    text: "You know, I don't really care much for conspiracy theories. They're not very interesting to me. But what do you know about 10th dimensions? That they exist, they're powerful, and they're trying to stop us from using them? That's pretty interesting... wait no, they're not. They're just saying that because they can, they'll. That's not how it works at all. I'm not stupid, I'm not crazy, I know what's best. I"
   },
   {
     id: "ai704",
@@ -6152,7 +6152,7 @@ export const news = [
   },
   {
     id: "ai708",
-    text: "I've been playing this game for over a year now and I've only ever seen 2 boss fights. The first was a Hydra that was after your 9th Dimension, the second a giant crater with Anti-people inside. Both of those fights sucked and I'm not even sure if I could replay the last one."
+    text: "I've been playing this game for over a year now and I've only ever seen 2 boss fights. The first was a Hydra that was after your 10th Dimension, the second a giant crater with Anti-people inside. Both of those fights sucked and I'm not even sure if I could replay the last one."
   },
   {
     id: "ai709",
@@ -6180,7 +6180,7 @@ export const news = [
   },
   {
     id: "ai715",
-    text: "Discovery of the 10th Dimension was announced on August 1st, 2025."
+    text: "Discovery of the 11th Dimension was announced on August 1st, 2025."
   },
   {
     id: "ai716",
@@ -6216,7 +6216,7 @@ export const news = [
   },
   {
     id: "ai724",
-    text: "Discovery of the 9th Dimension will be discussed at the 9th Dimension Fanart Competition!"
+    text: "Discovery of the 10th Dimension will be discussed at the 10th Dimension Fanart Competition!"
   },
   {
     id: "ai725",
@@ -6264,11 +6264,11 @@ export const news = [
   },
   {
     id: "ai736",
-    get text() { return `It's the year ${format(Number.MAX_VALUE, 2)}, Hevi has just unlocked the 9th dimension, and the world has fallen into chaos and discord due to the Anti-Hevi revolution.`; }
+    get text() { return `It's the year ${format(Number.MAX_VALUE, 2)}, Hevi has just unlocked the 10th dimension, and the world has fallen into chaos and discord due to the Anti-Hevi revolution.`; }
   },
   {
     id: "ai737",
-    text: "The war for New Antimatter has raged on for eons, but one faction has stood firm: the loyalists of the 9th Dimension. They've made a pact with the Anti-Zulu Empire, pledging their obedience to Anti-Antimatter, the Anti-Slab. The Zulu people were once part of the Anti-Slab, but fell prey to the matter once again. As the Zulu people are nomadic, they have no civilization."
+    text: "The war for New Antimatter has raged on for eons, but one faction has stood firm: the loyalists of the 10th Dimension. They've made a pact with the Anti-Zulu Empire, pledging their obedience to Anti-Antimatter, the Anti-Slab. The Zulu people were once part of the Anti-Slab, but fell prey to the matter once again. As the Zulu people are nomadic, they have no civilization."
   },
   {
     id: "ai738",
@@ -6280,7 +6280,7 @@ export const news = [
   },
   {
     id: "ai740",
-    text: "By now you've probably heard of the \"9th Dimension\", it's an imaginary realm created by the 9th Dimension, and according to no known laws of reality, it exists. It's also the name of a popular video game, and it's been linked to a string of unsolved killings."
+    text: "By now you've probably heard of the \"10th Dimension\", it's an imaginary realm created by the 10th Dimension, and according to no known laws of reality, it exists. It's also the name of a popular video game, and it's been linked to a string of unsolved killings."
   },
   {
     id: "ai741",
@@ -6458,7 +6458,7 @@ export const news = [
   },
   {
     id: "ai784",
-    text: "You can unlock the 9th dimension by [DATA EXPUNGED]"
+    text: "You can unlock the 10th dimension by [DATA EXPUNGED]"
   },
   {
     id: "ai785",
@@ -6543,7 +6543,7 @@ export const news = [
   },
   {
     id: "ai805",
-    text: "THe last update, while short, was kinda long. I mean, it was only 5 hours. Hevipelle said it would last for 5 hours, but that was only a few seconds ago. There was a big explosion in the 8th Dimension, and there was no one left to explain how it happened. All we know is that it exploded when Hevipelle touched it, and there was a big crater in the ground. That crater is still there."
+    text: "THe last update, while short, was kinda long. I mean, it was only 5 hours. Hevipelle said it would last for 5 hours, but that was only a few seconds ago. There was a big explosion in the 9th Dimension, and there was no one left to explain how it happened. All we know is that it exploded when Hevipelle touched it, and there was a big crater in the ground. That crater is still there."
   },
   {
     id: "ai806",
@@ -6555,7 +6555,7 @@ export const news = [
   },
   {
     id: "ai808",
-    text: "The real reason no one has made a joke about why there is no 9th dimension is because the 9th dimension isn't even the most ridiculous of memes. It's the 9th dimension in a nutshell."
+    text: "The real reason no one has made a joke about why there is no 10th dimension is because the 10th dimension isn't even the most ridiculous of memes. It's the 10th dimension in a nutshell."
   },
   {
     id: "ai809",
@@ -6587,7 +6587,7 @@ export const news = [
   },
   {
     id: "ai816",
-    text: "The challenge of finding the ninth dimension has been solved. The universe is now your personal hell."
+    text: "The challenge of finding the tenth dimension has been solved. The universe is now your personal hell."
   },
   {
     id: "ai817",
@@ -6655,7 +6655,7 @@ export const news = [
   },
   {
     id: "ai833",
-    text: "The phrases \"Hevi dies in the 9th Dimension\" and \"I'll never let you down\" are two of the most important phrases in the game."
+    text: "The phrases \"Hevi dies in the 10th Dimension\" and \"I'll never let you down\" are two of the most important phrases in the game."
   },
   {
     id: "ai834",
@@ -6695,7 +6695,7 @@ export const news = [
   },
   {
     id: "ai843",
-    text: "I think I might have gotten the password for the 9th dimension, if only I hadn't deleted it."
+    text: "I think I might have gotten the password for the 10th dimension, if only I hadn't deleted it."
   },
   {
     id: "ai844",
@@ -6868,7 +6868,7 @@ export const news = [
   },
   {
     id: "ai886",
-    text: "You haven't unlocked the ninth dimension yet? Just hold M and DROP."
+    text: "You haven't unlocked the tenth dimension yet? Just hold M and DROP."
   },
   {
     id: "ai887",
@@ -6965,7 +6965,7 @@ export const news = [
   },
   {
     id: "ai910",
-    text: "The real reason that the 9th dimension exists is to keep us all imprisoned in a virtual reality simulation."
+    text: "The real reason that the 10th dimension exists is to keep us all imprisoned in a virtual reality simulation."
   },
   {
     id: "ai911",
@@ -6973,7 +6973,7 @@ export const news = [
   },
   {
     id: "ai912",
-    text: "The year is 5303. Hevipelle, the creator of Antimatter Dimensions, has touched the ninth dimension."
+    text: "The year is 5303. Hevipelle, the creator of Antimatter Dimensions, has touched the tenth dimension."
   },
   {
     id: "ai913",
@@ -7029,11 +7029,11 @@ export const news = [
   },
   {
     id: "ai926",
-    text: "I wonder what the fuss is about with the 4th dimension? Well, if you have 4 of them, and you multiply them by 0, then you get to the magical number of 4. That's why the 4th dimension exists. But what if there were 5? Well, the 5th dimension could replace the 4th dimension, so why not have a 5th dimension? Well, that's what the 6th, the 7th, and the 8th dimension are."
+    text: "I wonder what the fuss is about with the 4th dimension? Well, if you have 4 of them, and you multiply them by 0, then you get to the magical number of 4. That's why the 4th dimension exists. But what if there were 5? Well, the 5th dimension could replace the 4th dimension, so why not have a 5th dimension? Well, that's what the 6th, the 7th, the 8th, and the 9th dimension are."
   },
   {
     id: "ai927",
-    text: "You are using the wrong version! The reality update is already out! Press Ctrl+Shift+Alt+Del to unlock the 9th Dimension!"
+    text: "You are using the wrong version! The reality update is already out! Press Ctrl+Shift+Alt+Del to unlock the 10th Dimension!"
   },
   {
     id: "ai928",
@@ -7077,7 +7077,7 @@ export const news = [
   },
   {
     id: "ai938",
-    text: "The oldest and maybe the most famous game in all of AD, that certainly will be remembered long after you retire, is AD. Ever heard of someone winning the game with more than 2 1's? I have. Ever heard of someone losing it? I have. Ever heard of a 9th dimension existing in AD? I have never."
+    text: "The oldest and maybe the most famous game in all of AD, that certainly will be remembered long after you retire, is AD. Ever heard of someone winning the game with more than 2 1's? I have. Ever heard of someone losing it? I have. Ever heard of a 10th dimension existing in AD? I have never."
   },
   {
     id: "ai939",
@@ -7113,7 +7113,7 @@ export const news = [
   },
   {
     id: "ai947",
-    text: "The Tickspeed Challenge is a team based game where you have to time-travel to the Andromeda galaxy to reach the 9th Dimension, the 1st Dimension being the shortest distance to the 9th Dimension. There is no perk for reaching the 9th Dimension, you just have to time-travel to the Andromeda galaxy to reach the 9th Dimension, and you'll be granted with a secret achievement for achieving instant [REDACTED] with no time-travelling."
+    text: "The Tickspeed Challenge is a team based game where you have to time-travel to the Andromeda galaxy to reach the 10th Dimension, the 1st Dimension being the shortest distance to the 10th Dimension. There is no perk for reaching the 9th Dimension, you just have to time-travel to the Andromeda galaxy to reach the 10th Dimension, and you'll be granted with a secret achievement for achieving instant [REDACTED] with no time-travelling."
   },
   {
     id: "ai948",
@@ -7181,7 +7181,7 @@ export const news = [
   },
   {
     id: "ai964",
-    get text() { return `Although the majority of players would say that the 9th dimension is not a thing, a handful of people would go and level it up in the most epic way imaginable. These people would use the power of the 9th dimension and achieve, like, ${format(Number.MAX_VALUE, 2)} EP with it. No? Well, they are the exceptions to the rule.`; },
+    get text() { return `Although the majority of players would say that the 10th dimension is not a thing, a handful of people would go and level it up in the most epic way imaginable. These people would use the power of the 10th dimension and achieve, like, ${format(Number.MAX_VALUE, 2)} EP with it. No? Well, they are the exceptions to the rule.`; },
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -7234,7 +7234,7 @@ export const news = [
   },
   {
     id: "ai977",
-    text: "The 9th dimension rose up like a volcano and began raining destruction on the empty 10th dimension. The smoke and debris from the exploding 9th dimension covered the entire 9th dimension. All that is left is a smoldering crater and the remains of the 9th dimension."
+    text: "The 10th dimension rose up like a volcano and began raining destruction on the empty 11th dimension. The smoke and debris from the exploding 10th dimension covered the entire 10th dimension. All that is left is a smoldering crater and the remains of the 10th dimension."
   },
   {
     id: "ai978",
@@ -7246,7 +7246,7 @@ export const news = [
   },
   {
     id: "ai980",
-    text: "If you are suffering from low antimatter production, then worry not, friend! Our highly scientific antimatter government has recently reached the ninth dimension and will soon begin giving us the Anti-Hats as a sign of respect!"
+    text: "If you are suffering from low antimatter production, then worry not, friend! Our highly scientific antimatter government has recently reached the tenth dimension and will soon begin giving us the Anti-Hats as a sign of respect!"
   },
   {
     id: "ai981",
@@ -7278,7 +7278,7 @@ export const news = [
   },
   {
     id: "ai988",
-    text: "BREAKING NEWS: Hevipelle, the creator of the 9th dimension, has just announced that beta will be out in 5 hours!"
+    text: "BREAKING NEWS: Hevipelle, the creator of the 10th dimension, has just announced that beta will be out in 5 hours!"
   },
   {
     id: "ai989",
@@ -7294,7 +7294,7 @@ export const news = [
   },
   {
     id: "ai992",
-    text: "In recent news clashes, the warlocks have been gathering looters for raid boss. He loves his 5 hour looters and wants to show off his mighty weapon of choice, the 9th Dimension. As the two beasts battle, the 1st dimension holder needs to be careful as the first one might get the same as the 2nd one as well. Meanwhile, the raid ends its journey with a bang as the boss squanders the Explodium exploit by flooding the area with Explodium, which before his, was filled with Marsh Mice. Both are promptly annihilated by the boss' relentless claw attacks. It's a grueling job, but the raid stalwarts manage to grab the stalagm and push him across the opal Gondwan . With the boss dead and the warlocks not far behind, the warlocks try their hand at farming looters, but the grinding continues apace. Things are looking bleak for the warlocks, as the boss seeks to take advantage of the people's greed, and steal their weaponry, making them unable to use any remaining of their  weapons, which are made of highly-stable antimatter. The warlocks attempt to use the no fluke policy as a weapon to smite the people, but the people take to the streets, physically attacking and mentally draining the people of all mental capacity they had been holding onto. The people resort to violence, using the 9th dimension just like they use to hold people back, but the people have faith in God that he will merciful, He will bring about a kinder and gentler time where everyone can use the last drop of their power."
+    text: "In recent news clashes, the warlocks have been gathering looters for raid boss. He loves his 5 hour looters and wants to show off his mighty weapon of choice, the 10th Dimension. As the two beasts battle, the 1st dimension holder needs to be careful as the first one might get the same as the 2nd one as well. Meanwhile, the raid ends its journey with a bang as the boss squanders the Explodium exploit by flooding the area with Explodium, which before his, was filled with Marsh Mice. Both are promptly annihilated by the boss' relentless claw attacks. It's a grueling job, but the raid stalwarts manage to grab the stalagm and push him across the opal Gondwan . With the boss dead and the warlocks not far behind, the warlocks try their hand at farming looters, but the grinding continues apace. Things are looking bleak for the warlocks, as the boss seeks to take advantage of the people's greed, and steal their weaponry, making them unable to use any remaining of their  weapons, which are made of highly-stable antimatter. The warlocks attempt to use the no fluke policy as a weapon to smite the people, but the people take to the streets, physically attacking and mentally draining the people of all mental capacity they had been holding onto. The people resort to violence, using the 10th dimension just like they use to hold people back, but the people have faith in God that he will merciful, He will bring about a kinder and gentler time where everyone can use the last drop of their power."
   },
   {
     id: "ai993",
@@ -7310,7 +7310,7 @@ export const news = [
   },
   {
     id: "ai996",
-    text: "Hevipelle has broken the 9th wall! Get ready for everything to get pretty dark."
+    text: "Hevipelle has broken the 10th wall! Get ready for everything to get pretty dark."
   },
   {
     id: "ai997",

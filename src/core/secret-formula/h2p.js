@@ -294,19 +294,19 @@ you can buy whatever quantity gets you to that Dimension's next Dimension multip
 <br>
 <br>
 <b>Max all:</b> Max all will buy until ${formatInt(10)} of the 1st Antimatter Dimension until it cannot anymore,
-then second, and so on until the 8th Antimatter Dimension, and then buy max Tickspeed Upgrades.
+then second, and so on until the 9th Antimatter Dimension, and then buy max Tickspeed Upgrades.
 <br>
 <br>
-<b>Dimension base prices:</b> ${Array.range(1, 8)
+<b>Dimension base prices:</b> ${Array.range(1, 9)
     .map(tier => format(AntimatterDimension(tier)._baseCost, 2, 2))
     .join(", ")}
 <br>
-<b>Base per ${formatInt(10)} bought dimension price increases:</b> ${Array.range(1, 8)
+<b>Base per ${formatInt(10)} bought dimension price increases:</b> ${Array.range(1, 9)
   .map(tier => format(AntimatterDimension(tier)._baseCostMultiplier, 2, 2))
   .join(", ")}
 <br>
 <br>
-<b>Hotkeys: 1, 2, 3, 4, 5, 6, 7, 8</b> for buy until ${formatInt(10)} Xth Dimension
+<b>Hotkeys: 1, 2, 3, 4, 5, 6, 7, 8, 9</b> for buy until ${formatInt(10)} Xth Dimension
 (you can also hold down Shift while buying Dimensions, which will only buy
 ${formatInt(1)} instead of ${formatInt(10)}), <b>M</b> for Max all
 `,
@@ -345,8 +345,8 @@ with your current amount of antimatter.
 <b>Dimension Boost:</b> This resets your antimatter and all of your Antimatter Dimensions, but unlocks another
 Antimatter Dimension for you to purchase and boosts your Dimension multipliers.
 The 1st Dimension Boost requires ${formatInt(20)} 4th Dimensions, the 2nd requires ${formatInt(20)} 5th Dimensions, etc.
-After unlocking all ${formatInt(8)} Dimensions,
-every additional boost will cost ${formatInt(15)} more 8th Dimensions than the previous Boost and will no longer
+After unlocking all ${formatInt(9)} Dimensions,
+every additional boost will cost ${formatInt(15)} more 9th Dimensions than the previous Boost and will no longer
 unlock a Dimension, but will continue to increase your Dimension multipliers.
 <br>
 <br>
@@ -373,7 +373,7 @@ Though it will have very little impact for the first few Tickspeed purchases,
 the increase is multiplicative and will not take long to be visible.
 <br>
 <br>
-Your first Antimatter Galaxy requires ${formatInt(80)} Eighth Dimensions, and each additional Galaxy will cost
+Your first Antimatter Galaxy requires ${formatInt(80)} Ninth Dimensions, and each additional Galaxy will cost
 another ${formatInt(60)} more.
 <br>
 <b>Distant Galaxy scaling:</b> Above ${formatInt(100)} Antimatter Galaxies the cost increase between Galaxies will
@@ -387,16 +387,16 @@ increases by another ${formatPercents(0.002, 1)} per Galaxy, on top of Distant s
 <b>Hotkey: G</b> will try to purchase an Antimatter Galaxy.
 `,
       isUnlocked: () => true,
-      tags: ["8th", "reset", "galaxy", "earlygame"],
+      tags: ["9th", "reset", "galaxy", "earlygame"],
       tab: "dimensions/antimatter"
     }, {
       name: "Dimensional Sacrifice",
       info: () => `
-<b>You unlock Dimensional Sacrifice after your fifth Dimension Boost.</b>
+<b>You unlock Dimensional Sacrifice after your sixth Dimension Boost.</b>
 <br>
 <br>
-Sacrificing will immediately reset the owned quantity of all non-Eighth Dimensions to zero, without reducing the
-multiplier or the current cost. In return, it will multiply the Eighth Dimension Multiplier by the shown value.
+Sacrificing will immediately reset the owned quantity of all non-Ninth Dimensions to zero, without reducing the
+multiplier or the current cost. In return, it will multiply the Ninth Dimension Multiplier by the shown value.
 It will take time to get back to the production you previously had, but you will end up with a net increase.
 <br>
 <br>
@@ -409,7 +409,7 @@ ${formatX(8)} then ${formatX(5)}; in both cases you will end up with a total sac
 <b>Hotkey: S</b> will try to sacrifice.
 `,
       isUnlocked: () => Sacrifice.isVisible,
-      tags: ["8th", "reset", "earlygame", "gods", "earlygame"],
+      tags: ["9th", "reset", "earlygame", "gods", "earlygame"],
       tab: "dimensions/antimatter"
     }, {
       name: "Achievements",
@@ -510,7 +510,7 @@ or until ${formatInt(10)}. Bulk buy is disabled when the autobuyer is set to sin
 <br>
 <br>
 <b>Tickspeed Autobuyer Buy Quantity:</b> The tickspeed autobuyer can be set to buy a single upgrade per activation
-or to buy the max possible once the Tickspeed Challenge (C9) has been beaten.
+or to buy the max possible once the Tickspeed Challenge (C10) has been beaten.
 <br>
 <br>
 <b>Automatic Dimension Boost Customization:</b> With the Dimension Boost autobuyer you can set the max number of
@@ -587,19 +587,19 @@ Every crunch, your produced Infinity Dimensions are reset to the amount you purc
 of Infinity Dimensions does not carry between crunches, all the multipliers you got from purchasing them do.
 <br>
 <br>
-<b>Infinity Dimension unlock thresholds (antimatter):</b> ${Array.range(1, 8)
+<b>Infinity Dimension unlock thresholds (antimatter):</b> ${Array.range(1, 9)
     .map(tier => formatPostBreak(InfinityDimension(tier)._unlockRequirement))
     .join(", ")}
 <br>
-<b>Infinity Dimension purchase multipliers:</b> ${Array.range(1, 8)
+<b>Infinity Dimension purchase multipliers:</b> ${Array.range(1, 9)
     .map(tier => format(InfinityDimension(tier)._powerMultiplier))
     .join(", ")}
 <br>
-<b>Infinity Dimension base prices (IP):</b> ${Array.range(1, 8)
+<b>Infinity Dimension base prices (IP):</b> ${Array.range(1, 9)
     .map(tier => format(InfinityDimension(tier)._baseCost))
     .join(", ")}
 <br>
-<b>Infinity Dimension price increases:</b> ${Array.range(1, 8)
+<b>Infinity Dimension price increases:</b> ${Array.range(1, 9)
     .map(tier => format(InfinityDimension(tier)._costMultiplier))
     .join(", ")}
 <br>
@@ -735,11 +735,11 @@ jump when they reach those thresholds, and only apply to the first four dimensio
 ${format(TimeDimension(1)._costIncreaseThresholds[2])} EP each dimension purchase counts as four purchases for the
 purpose of cost increases, causing the price to rise much more steeply.
 <br>
-<b>Time Dimension base prices (EP):</b> ${Array.range(1, 8)
+<b>Time Dimension base prices (EP):</b> ${Array.range(1, 9)
     .map(tier => format(TimeDimension(tier)._baseCost))
     .join(", ")}
 <br>
-<b>Time Dimension base price increases:</b> ${Array.range(1, 8)
+<b>Time Dimension base price increases:</b> ${Array.range(1, 9)
     .map(tier => format(TimeDimension(tier)._costMultiplier))
     .join(", ")}
 <br>
@@ -1449,7 +1449,7 @@ If affordable, the Infinity button itself will visually change and bring you to 
 V is a special Celestial in the sense that they are not unlocked by another Celestial,
 but is instead unlocked by completing Achievement ID 151 (row ${formatInt(15)}, column ${formatInt(1)},
 "You really didn't need it anyway"), which requires you to get ${formatInt(800)} Antimatter Galaxies
-without buying 8th Antimatter Dimensions in your current Infinity.
+without buying 9th Antimatter Dimensions in your current Infinity.
 <br>
 <br>
 After the subtab is unlocked from the Achievement, you are met with another set of requirements to fully unlock V.
