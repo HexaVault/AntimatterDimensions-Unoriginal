@@ -58,7 +58,7 @@ export class DimBoost {
     if (Ra.isRunning) {
       // Ra makes boosting impossible. Note that this function isn't called
       // when giving initial boosts, so the player will still get those.
-      return 5;
+      return 0;
     }
     if (InfinityChallenge(1).isRunning) {
       // Usually, in Challenge 8, the only boosts that are useful are the first 5
@@ -68,6 +68,11 @@ export class DimBoost {
       // There's no actual problem with bulk letting the player get
       // more boosts than this; it's just that boosts beyond this are pointless.
       return 3;
+    }
+    if (NormalChallenge(9).isRunning) {
+      // Ra makes boosting impossible. Note that this function isn't called
+      // when giving initial boosts, so the player will still get those.
+      return 5;
     }
     if (NormalChallenge(8).isRunning) {
       // See above. It's important we check for this after checking for IC1 since otherwise

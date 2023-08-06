@@ -14,8 +14,9 @@ export class Sacrifice {
   }
 
   static get disabledCondition() {
-    if (NormalChallenge(11).isRunning) return "8th Dimensions are disabled";
+    if (NormalChallenge(11).isRunning) return "9th Dimensions are disabled";
     if (EternityChallenge(3).isRunning) return "Eternity Challenge 3";
+    if (NormalChallenge(9).isRunning) return "Normal Challenge 9";
     if (DimBoost.purchasedBoosts < 6) return `Requires ${formatInt(6)} Dimension Boosts`;
     if (AntimatterDimension(9).totalAmount.eq(0)) return "No 9th Antimatter Dimensions";
     if (this.nextBoost.lte(1)) return `${formatX(1)} multiplier`;
