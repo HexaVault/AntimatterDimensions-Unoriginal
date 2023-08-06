@@ -8,9 +8,9 @@ export class Sacrifice {
   }
 
   static get canSacrifice() {
-    return DimBoost.purchasedBoosts > 6 && !EternityChallenge(3).isRunning && this.nextBoost.gt(1) &&
+    return DimBoost.purchasedBoosts > 5 && !EternityChallenge(3).isRunning && this.nextBoost.gt(1) &&
       AntimatterDimension(9).totalAmount.gt(0) && Currency.antimatter.lt(Player.infinityLimit) &&
-      !Enslaved.isRunning;
+      !Enslaved.isRunning && !NormalChallenge(9).isRunning;
   }
 
   static get disabledCondition() {
