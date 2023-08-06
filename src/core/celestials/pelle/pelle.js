@@ -42,6 +42,7 @@ const disabledMechanicUnlocks = {
   antimatterDimAutobuyer6: () => PelleUpgrade.antimatterDimAutobuyers2,
   antimatterDimAutobuyer7: () => PelleUpgrade.antimatterDimAutobuyers2,
   antimatterDimAutobuyer8: () => PelleUpgrade.antimatterDimAutobuyers2,
+  antimatterDimAutobuyer9: () => PelleUpgrade.antimatterDimAutobuyers2,
   tickspeedAutobuyer: () => PelleUpgrade.tickspeedAutobuyer,
   dimBoostAutobuyer: () => PelleUpgrade.dimBoostAutobuyer,
   galaxyAutobuyer: () => PelleUpgrade.galaxyAutobuyer,
