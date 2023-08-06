@@ -262,7 +262,7 @@ spend it to buy the 1st Antimatter Dimension to start the game.
 <br>
 Antimatter Dimensions are your production units in game. The 1st Antimatter Dimension produces your antimatter.
 Each consecutive Antimatter Dimension produces the previous one, allowing you to have steady growth.
-There are eight Antimatter Dimensions total.
+There are nine Antimatter Dimensions total.
 <br>
 <br>
 <b>Dimension Multiplier:</b> Beside the Dimension there is a multiplier (example: 1st Dimension ${formatX(1, 1, 1)}).
@@ -1651,7 +1651,7 @@ ${format(ImaginaryUpgrade(15).cost)} iM.
 Lai'tela gives a new currency called Dark Matter, which provides a multiplier to Continuum's effect
 based on the highest amount of Dark Matter you have ever had. Dark Matter is produced by
 Dark Matter Dimensions, in a similar cascading way to all other types of dimensions in the game. Unlike other
-dimensions, there are only four Dark Matter Dimensions rather than eight. You start with the first one unlocked
+dimensions, there are only four Dark Matter Dimensions rather than nine. You start with the first one unlocked
 immediately and the higher ones are unlocked via Imaginary Upgrades. When unlocking dimensions, you are given
 ${formatInt(1)} of the dimension and cannot gain more without having it produced from the next tier up.
 <br>
@@ -1680,7 +1680,7 @@ ${format(Laitela.annihilationDMRequirement)} Dark Matter in order to Annihilate.
 Lai'tela has a Reality which gives a multiplier to Dark Matter Dimensions' Dark Matter power based on how well you
 do in the Reality. Whenever you complete the Reality in under ${formatInt(30)} seconds, your highest available
 Dimension will be permanently disabled during further attempts of the Reality. Disabling all of your dimensions by
-completing the Reality in under ${formatInt(30)} seconds eight times will also give you a ${formatX(8)} multiplier
+completing the Reality in under ${formatInt(30)} seconds nine times will also give you a ${formatX(8)} multiplier
 to Dark Energy gain.
 <br>
 <br>
