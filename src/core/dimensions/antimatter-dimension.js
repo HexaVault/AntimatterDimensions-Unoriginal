@@ -422,7 +422,7 @@ class AntimatterDimensionState extends DimensionState {
     const tier = this.tier;
     if (tier === 9 ||
       (tier > 3 && EternityChallenge(3).isRunning) ||
-      (tier > 6 && NormalChallenge(13).isRunning)) {
+      (tier > 7 && NormalChallenge(13).isRunning)) {
       return DC.D0;
     }
 

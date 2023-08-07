@@ -10,6 +10,7 @@ import { Cloud } from "./core/storage";
 import { supportedBrowsers } from "./supported-browsers";
 
 import Payments from "./core/payments";
+import { Achievement } from "./core/globals";
 
 if (GlobalErrorHandler.handled) {
   throw new Error("Initialization failed");
@@ -80,6 +81,7 @@ export function breakInfinity() {
   }
   // There's a potential migration edge case involving already-maxed autobuyers; this should give the achievement
   Achievement(61).tryUnlock();
+  Achievement(52).unlock();
   player.break = !player.break;
   TabNotification.ICUnlock.tryTrigger();
   EventHub.dispatch(player.break ? GAME_EVENT.BREAK_INFINITY : GAME_EVENT.FIX_INFINITY);

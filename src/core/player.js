@@ -770,6 +770,7 @@ window.player = {
       enabled: true,
       repeatBuffer: 40,
       AIChance: 0,
+      SCPChance: 10,
       speed: 1,
       includeAnimated: true,
     },

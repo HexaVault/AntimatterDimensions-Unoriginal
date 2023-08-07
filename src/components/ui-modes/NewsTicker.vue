@@ -62,8 +62,10 @@ export default {
           .randomElement();
       } else {
         const isAI = Math.random() < player.options.news.AIChance;
+        const isSCP = (Math.random() < player.options.news.SCPChance) && !isAI;
         this.currentNews = GameDatabase.news
           .filter(message => message.id.includes("ai") === isAI)
+          .filter(message => message.id.includes("scp") === isSCP)
           .filter(message => canShow(message))
           .randomElement();
       }
