@@ -1,4 +1,5 @@
 import { DC } from "./constants";
+import { InfinityUpgrade } from "./infinity-upgrades";
 
 export function effectiveBaseGalaxies() {
   // Note that this already includes the "50% more" active path effect
@@ -172,7 +173,8 @@ export const Tickspeed = {
       Achievement(36),
       Achievement(45),
       Achievement(66),
-      Achievement(83)
+      Achievement(83),
+      InfinityUpgrade.dim9TSmult
     )
       .times(getTickSpeedMultiplier().pow(this.totalUpgrades));
   },

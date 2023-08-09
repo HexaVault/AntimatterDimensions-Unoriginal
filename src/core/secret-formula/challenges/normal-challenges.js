@@ -115,7 +115,7 @@ export const normalChallenges = [
     id: 11,
     legacyId: 4,
     isQuickResettable: false,
-    description: () => `there are only ${formatInt(6)} Antimatter Dimensions. Dimension Boost ` +
+    description: () => `there are only ${formatInt(7)} Antimatter Dimensions. Dimension Boost ` +
       "and Antimatter Galaxy costs are modified.",
     name: "Automated Dimension Boosts",
     reward: "Dimension Boosts Autobuyer",
@@ -137,7 +137,7 @@ export const normalChallenges = [
     isQuickResettable: false,
     description: () => `each Antimatter Dimension produces the Dimension ${formatInt(2)} tiers below it
       instead of ${formatInt(1)}. Both 1st and 2nd Dimensions produce antimatter.
-      The 2nd, 4th, and 6th Dimensions are made stronger to compensate.`,
+      The 2nd, 4th, 6th and 8th Dimensions are made stronger to compensate.`,
     name: "Automated Big Crunches",
     reward: "Big Crunches Autobuyer",
     lockedAt: DC.D16,

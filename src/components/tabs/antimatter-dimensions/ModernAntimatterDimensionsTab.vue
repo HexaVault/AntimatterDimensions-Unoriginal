@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     sacrificeTooltip() {
-      return `Boosts 8th Antimatter Dimension by ${formatX(this.sacrificeBoost, 2, 2)}`;
+      return `Boosts 9th Antimatter Dimension by ${formatX(this.sacrificeBoost, 2, 2)}`;
     },
   },
   methods: {

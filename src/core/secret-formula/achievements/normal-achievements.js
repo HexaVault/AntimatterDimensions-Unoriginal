@@ -270,7 +270,7 @@ export const normalAchievements = [
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() {
       return `Each Antimatter Dimension gains a boost proportional to tier
-      (8th gets ${formatPercents(0.08)}, 7th gets ${formatPercents(0.07)}, etc.)`;
+      (9th gets ${formatPercents(0.09)}, 8th gets ${formatPercents(0.08)}, etc.)`;
     }
   },
   {
@@ -499,7 +499,7 @@ export const normalAchievements = [
     get description() {
       return `Reach ${format(1e4)} Infinity Points in a single infinity without purchasing tickspeed`;
     },
-    checkRequirement: () => Currency.infinityPoints.gte(1e4) && player.requirementChecks.noTS == true,
+    checkRequirement: () => Currency.infinityPoints.gte(1e4) && player.requirementChecks.infinity.noTS == true,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
   },
   {
@@ -941,7 +941,7 @@ export const normalAchievements = [
     name: "Back to square 1",
     get description() { return `Enter a normal challenge with over ${formatInt(150)} Free Tickspeed Upgrades`; },
     checkRequirement: () => player.totalTickGained >= 150 && player.challenge.normal.current != 0,
-    checkEvent: GAME_EVENT.SACRIFICE_RESET_AFTER,
+    checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 121,

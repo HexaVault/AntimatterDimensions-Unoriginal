@@ -48,6 +48,7 @@ export function startDilatedEternity(auto) {
     return false;
   }
   Achievement(136).unlock();
+  Achievement(76).unlock();
   eternity(false, auto, { switchingDilation: true });
   player.dilation.active = true;
   if (Pelle.isDoomed) PelleStrikes.dilation.trigger();

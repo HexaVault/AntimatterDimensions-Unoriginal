@@ -3,8 +3,7 @@ import { DC } from "../../constants";
 export const infinityChallenges = [
   {
     id: 1,
-    description: `all Normal Challenge restrictions are active at once, with the exception of the
-      Tickspeed (C9) and Big Crunch (C12) Challenges.`,
+    description: `all Normal Challenge restrictions are active at once, with the exception of Challebnges C9, C10 and C13`,
     goal: DC.E650,
     isQuickResettable: true,
     reward: {
@@ -17,7 +16,7 @@ export const infinityChallenges = [
   {
     id: 2,
     description: () => `Dimensional Sacrifice happens automatically every ${formatInt(400)} milliseconds once you have
-      an 8th Antimatter Dimension.`,
+      an 9th Antimatter Dimension.`,
     goal: DC.E10500,
     isQuickResettable: false,
     reward: {
@@ -125,7 +124,7 @@ export const infinityChallenges = [
       Math.max(0, player.records.thisInfinity.time - player.records.thisInfinity.lastBuyTime)),
     reward: {
       description:
-        "You get a multiplier to AD 2-7 based on 1st and 8th AD multipliers.",
+        "You get a multiplier to AD 2-8 based on 1st and 9th AD multipliers.",
       effect: () => AntimatterDimension(1).multiplier.times(AntimatterDimension(9).multiplier).pow(0.02),
       formatEffect: value => formatX(value, 2, 2)
     },

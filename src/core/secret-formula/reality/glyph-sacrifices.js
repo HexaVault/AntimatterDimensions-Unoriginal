@@ -26,7 +26,7 @@ export const glyphSacrifice = {
       const capped = Math.clampMax(sac, GlyphSacrificeHandler.maxSacrificeForEffects);
       return 1 + Math.log10(1 + Math.pow(capped, 0.2) / 100);
     },
-    description: amount => `${formatX(amount, 2, 2)} bigger multiplier when buying 8th Infinity Dimension`,
+    description: amount => `${formatX(amount, 2, 2)} bigger multiplier when buying 9th Infinity Dimension`,
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
   "time": {
@@ -37,7 +37,7 @@ export const glyphSacrifice = {
       const capped = Math.clampMax(sac, GlyphSacrificeHandler.maxSacrificeForEffects);
       return Math.pow(1 + Math.pow(capped, 0.2) / 100, 2);
     },
-    description: amount => `${formatX(amount, 2, 2)} bigger multiplier when buying 8th Time Dimension`,
+    description: amount => `${formatX(amount, 2, 2)} bigger multiplier when buying 9th Time Dimension`,
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
   "replication": {

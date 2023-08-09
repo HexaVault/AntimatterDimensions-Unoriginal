@@ -8,7 +8,7 @@ export const MultiplierTabHelper = {
         // Technically not 100% correct, but within EC7 any AD8 production is going to be irrelevant compared to AD7
         // and making the UI behave as if it's inactive produces a better look overall
         return Math.clamp(AntimatterDimensions.all.filter(ad => ad.isProducing).length,
-          1, EternityChallenge(7).isRunning ? 7 : 8);
+          1, EternityChallenge(7).isRunning ? 8 : 9);
       case "ID":
         return InfinityDimensions.all.filter(id => id.isProducing).length;
       case "TD":
@@ -108,7 +108,7 @@ export const MultiplierTabHelper = {
   achievementDimCheck(ach, dimStr) {
     switch (ach) {
       case 23:
-        return dimStr === "AD8";
+        return dimStr === "AD9";
       case 28:
       case 31:
       case 68:
@@ -117,7 +117,7 @@ export const MultiplierTabHelper = {
       case 94:
         return dimStr === "ID1";
       case 34:
-        return dimStr.substr(0, 2) === "AD" && Number(dimStr.charAt(2)) !== 8;
+        return dimStr.substr(0, 2) === "AD" && Number(dimStr.charAt(2)) !== 9;
       case 64:
         return dimStr.substr(0, 2) === "AD" && Number(dimStr.charAt(2)) <= 4;
       default:
@@ -137,7 +137,7 @@ export const MultiplierTabHelper = {
       case 73:
         return dimStr === "TD3";
       case 214:
-        return dimStr === "AD8";
+        return dimStr === "AD9";
       case 227:
         return dimStr === "TD4";
       case 234:
@@ -157,7 +157,7 @@ export const MultiplierTabHelper = {
       case 4:
         return dimStr.substr(0, 2) === "AD";
       case 8:
-        return dimStr.substr(0, 2) === "AD" && Number(dimStr.charAt(2)) > 1 && Number(dimStr.charAt(2)) < 8;
+        return dimStr.substr(0, 2) === "AD" && Number(dimStr.charAt(2)) > 1 && Number(dimStr.charAt(2)) < 9;
       default:
         return false;
     }
@@ -175,7 +175,7 @@ export const MultiplierTabHelper = {
       case 9:
         return dimStr.substr(0, 2) === "ID";
       case 7:
-        return dimStr === "ID8";
+        return dimStr === "ID9";
       default:
         return false;
     }

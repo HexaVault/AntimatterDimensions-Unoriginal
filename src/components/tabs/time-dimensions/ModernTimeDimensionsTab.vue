@@ -99,7 +99,7 @@ export default {
       <div v-if="showLockedDimCostNote">
         Hold shift to see the Eternity Point cost for locked Time Dimensions.
       </div>
-      Any 8th Time Dimensions purchased above {{ format(1e8) }} will not further increase the multiplier.
+      Any 9th Time Dimensions purchased above {{ format(1e8) }} will not further increase the multiplier.
     </div>
   </div>
 </template>

@@ -102,8 +102,8 @@ export const AD = {
   },
   sacrifice: {
     name: "Sacrifice Multiplier",
-    multValue: dim => ((!dim || dim === 8) ? Sacrifice.totalBoost : DC.D1),
-    isActive: dim => (!dim || dim === 8) && Sacrifice.totalBoost.gt(1) && !EternityChallenge(11).isRunning,
+    multValue: dim => ((!dim || dim === 9) ? Sacrifice.totalBoost : DC.D1),
+    isActive: dim => (!dim || dim === 9) && Sacrifice.totalBoost.gt(1) && !EternityChallenge(11).isRunning,
     icon: MultiplierTabIcons.SACRIFICE("antimatter"),
   },
   achievementMult: {

@@ -39,7 +39,7 @@ GameDatabase.celestials.descriptions = [
     name: "The Nameless Ones",
     effects() {
       return `Glyph levels are boosted to a minimum of ${formatInt(5000)}.
-      Infinity, Time, and 8th Antimatter Dimension purchases are limited to ${formatInt(1)} each.
+      Infinity, Time, and 9th Antimatter Dimension purchases are limited to ${formatInt(1)} each.
       Antimatter Dimension multipliers are always Dilated (the Glyph effect still only applies in actual Dilation).
       Time Study 192 (uncapped Replicanti) is locked.
       The Black Hole is disabled.
@@ -74,7 +74,7 @@ GameDatabase.celestials.descriptions = [
     name: "Lai'tela",
     effects() {
       let disabledDims;
-      const highestActive = 8 - Laitela.difficultyTier;
+      const highestActive = 9 - Laitela.difficultyTier;
       switch (highestActive) {
         case 0:
           disabledDims = "all Dimensions";
@@ -85,14 +85,14 @@ GameDatabase.celestials.descriptions = [
         case 2:
           disabledDims = "3rd and higher Dimensions";
           break;
-        case 7:
-          disabledDims = "8th Dimensions";
+        case 8:
+          disabledDims = "9th Dimensions";
           break;
         default:
           disabledDims = `${highestActive + 1}th and higher Dimensions`;
           break;
       }
-      const disabledText = highestActive === 8
+      const disabledText = highestActive === 9
         ? ""
         : `Production from ${disabledDims} is disabled.`;
 

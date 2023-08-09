@@ -1,10 +1,10 @@
 import { DC } from "./constants";
 
 export class Sacrifice {
-  // This is tied to the "buying an 8th dimension" achievement in order to hide it from new players before they reach
+  // This is tied to the "buying an 9th dimension" achievement in order to hide it from new players before they reach
   // sacrifice for the first time.
   static get isVisible() {
-    return Achievement(18).isUnlocked || PlayerProgress.realityUnlocked();
+    return Achievement(19).isUnlocked || PlayerProgress.realityUnlocked();
   }
 
   static get canSacrifice() {

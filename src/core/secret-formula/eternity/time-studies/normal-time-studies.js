@@ -499,7 +499,7 @@ export const normalTimeStudies = [
     cost: 120,
     requirement: [193],
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
-    description: "Dimensional Sacrifice boosts the 8th Antimatter Dimension even more",
+    description: "Dimensional Sacrifice boosts the 9th Antimatter Dimension even more",
     effect: () => {
       const totalBoost = Sacrifice.totalBoost;
       const firstPart = totalBoost.pow(7.6).clampMaxExponent(44000);

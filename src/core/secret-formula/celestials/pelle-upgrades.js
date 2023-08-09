@@ -78,7 +78,7 @@ export const pelleUpgrades = {
   },
   antimatterDimAutobuyers2: {
     id: 3,
-    description: "Get permanent Autobuyers for Antimatter Dimensions 5-8",
+    description: "Get permanent Autobuyers for Antimatter Dimensions 5-9",
     cost: 2.5e7,
     formatCost,
   },

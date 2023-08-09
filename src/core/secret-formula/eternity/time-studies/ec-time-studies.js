@@ -31,8 +31,8 @@ export const ecTimeStudies = [
     requirement: [171],
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
     secondary: {
-      resource: "8th Antimatter Dimensions",
-      current: () => AntimatterDimension(8).totalAmount,
+      resource: "9th Antimatter Dimensions",
+      current: () => AntimatterDimension(9).totalAmount,
       required: completions => new Decimal(17300 + Math.min(completions, 4) * 1250),
       formatValue: value => formatInt(Math.floor(value.toNumber()))
     }

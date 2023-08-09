@@ -34,7 +34,7 @@ export const eternityChallenges = [
   },
   {
     id: 3,
-    description: "Antimatter Dimensions 5-8 don't produce anything. Dimensional Sacrifice is disabled.",
+    description: "Antimatter Dimensions 6-9 don't produce anything. Dimensional Sacrifice is disabled.",
     goal: DC.E600,
     pelleGoal: DC.E925,
     goalIncrease: DC.E75,
@@ -100,14 +100,14 @@ export const eternityChallenges = [
   {
     id: 7,
     description:
-      "1st Time Dimensions produce 8th Infinity Dimensions and 1st Infinity Dimensions produce " +
+      "1st Time Dimensions produce 9th Infinity Dimensions and 1st Infinity Dimensions produce " +
       "7th Antimatter Dimensions. Tickspeed also directly applies to Infinity and Time Dimensions.",
     goal: DC.E2000,
     pelleGoal: DC.E2700,
     goalIncrease: DC.E530,
     effect: () => TimeDimension(1).productionPerSecond,
     reward: {
-      description: "1st Time Dimension produces 8th Infinity Dimensions",
+      description: "1st Time Dimension produces 9th Infinity Dimensions",
       effect: completions => TimeDimension(1).productionPerSecond.pow(completions * 0.2).minus(1).clampMin(0),
       formatEffect: value => `${format(value, 2, 1)} per second`
     }

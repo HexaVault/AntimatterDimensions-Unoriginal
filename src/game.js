@@ -758,25 +758,25 @@ function laitelaRealityTick(realDiff) {
         if (Time.thisRealityRealTime.totalSeconds < 30) {
           // First attempt - destabilising
           completionText += `<br>Best Completion Time: None ➜ Destabilized
-          <br>Highest Active Dimension: ${formatInt(8 - oldInfo.difficultyTier)} ➜
+          <br>Highest Active Dimension: ${formatInt(9 - oldInfo.difficultyTier)} ➜
           ${formatInt(8 - laitelaInfo.difficultyTier)}`;
         } else {
           // First attempt - not destabilising
           completionText += `<br>Best Completion Time: None ➜
             ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()}
-            <br>Highest Active Dimension: ${formatInt(8 - laitelaInfo.difficultyTier)}`;
+            <br>Highest Active Dimension: ${formatInt(9 - laitelaInfo.difficultyTier)}`;
         }
       } else if (Time.thisRealityRealTime.totalSeconds < 30) {
         // Second+ attempt - destabilising
         completionText += `<br>Best Completion Time: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
           ➜ Destabilized
-          <br>Highest Active Dimension: ${formatInt(8 - oldInfo.difficultyTier)} ➜
+          <br>Highest Active Dimension: ${formatInt(9 - oldInfo.difficultyTier)} ➜
           ${formatInt(8 - laitelaInfo.difficultyTier)}`;
       } else {
         // Second+ attempt - not destabilising
         completionText += `<br>Best Completion Time: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
         ➜ ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()}
-        <br>Highest Active Dimension: ${formatInt(8 - oldInfo.difficultyTier)}`;
+        <br>Highest Active Dimension: ${formatInt(9 - oldInfo.difficultyTier)}`;
       }
       player.records.bestReality.laitelaSet = Glyphs.copyForRecords(Glyphs.active.filter(g => g !== null));
     } else {
@@ -798,7 +798,7 @@ function laitelaBeatText(disabledDim) {
       the Reality for the final Dimension will give you an additional ${formatX(8)} to Dark Energy gain.`;
     case 3: return `<br><br>Lai'tela's Reality will now disable production from all 3rd Dimensions during
         future runs, but the reward will be ${formatInt(100)} times stronger than before.`;
-    case 8: return `<br><br>Lai'tela's Reality will now disable production from all 8th Dimensions during
+    case 9: return `<br><br>Lai'tela's Reality will now disable production from all 9th Dimensions during
         future runs, but the reward will be ${formatInt(100)} times stronger than before. This boost can be
         repeated for each remaining Dimension by reaching destabilization within ${formatInt(30)} seconds again.`;
     default: return `<br><br>Lai'tela's Reality will now disable production from all

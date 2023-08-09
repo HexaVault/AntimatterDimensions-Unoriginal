@@ -112,18 +112,16 @@ export const infinityUpgrades = {
       formatEffect: value => `+${formatPercents(value - 1)}`
     }
   },
-  thisInfinityTimeMult: {
-    id: "timeMult2",
+  dim9TSmult: {
+    id: "9TSMult",
     cost: 3,
-    description: "Antimatter Dimensions gain a multiplier based on time spent in current Infinity",
-    effect: () => Decimal.max(Math.pow(Time.thisInfinity.totalMinutes / 4, 0.25), 1),
-    formatEffect: value => formatX(value, 2, 2),
+    checkRequirement: () => InfinityUpgrade.dim27mult.isBought,
+    description: "9th Antimatter Dimension and Tickspeed gain a multiplier based on Infinities",
+    effect: () => dimInfinityMult(),
+    formatEffect: value => formatX(value, 1, 1),
     charged: {
-      description:
-        "Antimatter Dimensions gain a power effect based on time spent in current Infinity and Teresa level",
-      effect: () => 1 +
-        Math.log10(Math.log10(Time.thisInfinity.totalMilliseconds + 100)) *
-        Math.sqrt(Ra.pets.teresa.level) / 150,
+      description: "9th Antimatter Dimension and Tickspeed gain a power effect based on Infinities and Teresa level",
+      effect: () => chargedDimInfinityMult(),
       formatEffect: value => formatPow(value, 4, 4)
     }
   },
@@ -200,7 +198,7 @@ export const infinityUpgrades = {
     cost: 300,
     checkRequirement: () => InfinityUpgrade.skipReset3.isBought,
     description: () =>
-      `Start every reset with ${formatInt(4)} Dimension Boosts, automatically unlocking the 8th Antimatter Dimension;
+      `Start every reset with ${formatInt(5)} Dimension Boosts, automatically unlocking the 8th and 9th Antimatter Dimension;
       and an Antimatter Galaxy`,
   },
   ipOffline: {

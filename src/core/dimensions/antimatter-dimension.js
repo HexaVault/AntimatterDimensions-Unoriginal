@@ -410,7 +410,7 @@ class AntimatterDimensionState extends DimensionState {
       case 5:
         return InfinityUpgrade.dim45mult;
       case 9:
-        return InfinityUpgrade.dim45mult;
+        return InfinityUpgrade.dim9TSmult;
     }
     return false;
   }
@@ -421,7 +421,7 @@ class AntimatterDimensionState extends DimensionState {
   get rateOfChange() {
     const tier = this.tier;
     if (tier === 9 ||
-      (tier > 3 && EternityChallenge(3).isRunning) ||
+      (tier > 4 && EternityChallenge(3).isRunning) ||
       (tier > 7 && NormalChallenge(13).isRunning)) {
       return DC.D0;
     }
@@ -442,7 +442,7 @@ class AntimatterDimensionState extends DimensionState {
    */
   get isProducing() {
     const tier = this.tier;
-    if ((EternityChallenge(3).isRunning && tier > 4) ||
+    if ((EternityChallenge(3).isRunning && tier > 5) ||
       (NormalChallenge(11).isRunning && tier > 7) ||
       (Laitela.isRunning && tier > Laitela.maxAllowedDimension)) {
       return false;

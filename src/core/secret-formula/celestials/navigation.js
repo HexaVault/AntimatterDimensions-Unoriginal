@@ -720,7 +720,7 @@ export const celestialNavigation = {
           return [
             "V's unlock Achievement",
             `Reach ${formatInt(galaxies)} / ${formatInt(goal)} Antimatter Galaxies without buying`,
-            "8th Antimatter Dimensions in your current Infinity"
+            "9th Antimatter Dimensions in your current Infinity"
           ];
         },
         angle: 135,
