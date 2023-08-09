@@ -196,7 +196,7 @@ export const speedrunMilestones = [
     key: "completeFullGame",
     name: "Game Completed!",
     description: "Complete the entire game",
-    checkRequirement: () => Achievement(188).isUnlocked,
+    checkRequirement: () => Achievement(189).isUnlocked,
     checkEvent: GAME_EVENT.ACHIEVEMENT_UNLOCKED,
   },
 ];

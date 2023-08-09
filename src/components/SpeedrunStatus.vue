@@ -61,7 +61,7 @@ export default {
       this.startDate = speedrun.startDate;
       this.saveName = speedrun.name;
       this.isCollapsed = speedrun.hideInfo;
-      this.isComplete = Achievement(188).isUnlocked;
+      this.isComplete = Achievement(189).isUnlocked;
 
       this.timePlayedStr = Time.realTimePlayed.toStringShort();
       this.offlineProgress = player.options.offlineProgress;
