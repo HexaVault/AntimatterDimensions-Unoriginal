@@ -3,7 +3,7 @@ import { DC } from "../../constants";
 export const infinityChallenges = [
   {
     id: 1,
-    description: `all Normal Challenge restrictions are active at once, with the exception of Challebnges C9, C10 and C13`,
+    description: `All Normal Challenge restrictions are active at once, with the exceptions of C9, C10 and C13`,
     goal: DC.E650,
     isQuickResettable: true,
     reward: {

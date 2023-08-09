@@ -1062,7 +1062,12 @@ export function guardFromNaNValues(obj) {
           if (!isFinite(newValue)) {
             throw new Error("NaN player property assignment");
           }
-          value = newValue;
+          if (isFinite(newValue) && newValue !== null && newValue !== undefined && typeof newValue == "number") {
+            value = newValue;
+          }
+          else {
+            value = 0
+          }
         }
       });
     }

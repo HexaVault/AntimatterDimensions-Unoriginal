@@ -408,9 +408,8 @@ class AntimatterDimensionState extends DimensionState {
         return InfinityUpgrade.dim36mult;
       case 4:
       case 5:
-        return InfinityUpgrade.dim45mult;
       case 9:
-        return InfinityUpgrade.dim9TSmult;
+        return InfinityUpgrade.dim45mult;
     }
     return false;
   }

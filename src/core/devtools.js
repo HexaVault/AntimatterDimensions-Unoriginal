@@ -237,17 +237,17 @@ dev.printResourceTotals = function() {
   console.log(`Tick reduction: e${-Math.round(getTickSpeedMultiplier().log10())}`);
 
   let ADmults = DC.D1;
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= 9; i++) {
     ADmults = ADmults.times(AntimatterDimension(i).multiplier);
   }
   console.log(`AD mults: e${ADmults.log10().toPrecision(3)}`);
   let IDmults = DC.D1;
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= 9; i++) {
     IDmults = IDmults.times(InfinityDimension(i).multiplier);
   }
   console.log(`ID mults: e${IDmults.log10().toPrecision(3)}`);
   let TDmults = DC.D1;
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= 9; i++) {
     TDmults = TDmults.times(TimeDimension(i).multiplier);
   }
   console.log(`TD mults: e${TDmults.log10().toPrecision(3)}`);
