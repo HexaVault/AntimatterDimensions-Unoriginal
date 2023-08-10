@@ -132,7 +132,7 @@ export function sacrificeReset() {
     }
     Currency.antimatter.reset();
   } else if (!isAch118Unlocked) {
-    AntimatterDimensions.resetAmountUpToTier(NormalChallenge(12).isRunning ? 7 : 8);
+    AntimatterDimensions.resetAmountUpToTier(NormalChallenge(13).isRunning ? 7 : 8);
   }
   player.requirementChecks.infinity.noSacrifice = false;
   EventHub.dispatch(GAME_EVENT.SACRIFICE_RESET_AFTER);
