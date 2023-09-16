@@ -265,6 +265,7 @@ export const Ra = {
       if (pet.memoryProductionMultiplier !== 1) boostList.push(pet.memoryGain);
     }
     if (Achievement(168).isUnlocked) boostList.push("Achievement 168");
+    if (ImaginaryUpgrade(8).effectOrDefault(1) != 1) boostList.push("Imaginary Upgrade 8");
     if (Ra.unlocks.continuousTTBoost.canBeApplied) boostList.push("current TT");
 
     if (boostList.length === 1) return `${boostList[0]}`;

@@ -411,6 +411,29 @@ export const migrations = {
         player.reality.automator.constantSortOrder = [...definedConstants];
       }
     },
+    25: player => {
+      if (player.dimensions.antimatter[8] == undefined) {
+        player.dimensions.antimatter[8] = {
+          amount: new Decimal(0),
+          cost: new Decimal(1e31),
+          bought: 0,
+          costBumps: 0,
+        },
+        player.dimensions.infinity[8] = {
+          amount: new Decimal(0),
+          cost: new Decimal(1e270),
+          bought: 0,
+          costBumps: 0,
+          isUnlocked: false
+        }
+        for (let i = 5; i <= 9; i++) {
+          player.dimensions.time[i] =
+          cost = [DC.D1, DC.D5, DC.E2, DC.E3, DC.E6, DC.E2350, DC.E2650, DC.E3000, DC.E3350][i],
+          amount = DC.D0,
+          bought = 0
+        }
+       }
+    },
   },
 
   normalizeTimespans(player) {

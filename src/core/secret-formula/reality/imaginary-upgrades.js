@@ -4,6 +4,7 @@ const rebuyable = props => {
   props.cost = () => props.initialCost * Math.pow(props.costMult, player.reality.imaginaryRebuyables[props.id]);
   const { effect } = props;
   if (props.isDecimal) props.effect = () => Decimal.pow(effect, player.reality.imaginaryRebuyables[props.id]);
+  else if (props.pow10) props.effect = () => 10 ** (effect * player.reality.imaginaryRebuyables[props.id]);
   else props.effect = () => effect * player.reality.imaginaryRebuyables[props.id];
   if (!props.formatEffect) props.formatEffect = value => `+${format(value, 2, 2)}`;
   props.formatCost = value => format(value, 2, 0);
@@ -73,12 +74,11 @@ export const imaginaryUpgrades = [
   rebuyable({
     name: "Hyperbolic Apeirogon",
     id: 8,
-    initialCost: 1e7,
-    costMult: 800,
-    description: () => `Multiply Infinity Dimensions by ${format("1e100000")}`,
-    effect: DC.E100000,
+    initialCost: 100,
+    costMult: 10,
+    description: () => `Multiply Memory Gain by ${formatInt(3)}`,
+    effect: 3,
     formatEffect: value => `${formatX(value)}`,
-    isDecimal: true
   }),
   rebuyable({
     name: "Cosmic Filament",
@@ -96,7 +96,8 @@ export const imaginaryUpgrades = [
     costMult: 2000,
     description: () => `Increase Singularity gain`,
     effect: 1,
-    formatEffect: value => `${formatX(1 + value, 2)}`
+    formatEffect: value => `${formatX(10^value, 2)}`,
+    pow10: true
   }),
   {
     name: "Suspicion of Interference",
